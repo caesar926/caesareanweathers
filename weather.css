@@ -150,6 +150,7 @@ body::before {
   padding-bottom: 12px;
 }
 
+                  
 .forecast-items-container::-webkit-scrollbar{
   height: 8px;
 }
@@ -165,7 +166,8 @@ body::before {
 }
 
 .forecast-item{
-  min-width: 70px;
+  min-width: 80px;
+  flex-shrink:0;
   background:rgb(255,255,255,0.1) ;
   display: flex;
   flex-direction: column;
@@ -230,3 +232,35 @@ body::before {
 .not-found{
   display: none;
 }
+
+
+@media (max-width: 600px) {
+
+  .temp-text {
+    font-size: 28px;
+  }
+
+  .condition-text {
+    font-size: 14px;
+  }
+
+  .weather-summary-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .weather-conditions-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .forecast-item {
+    min-width: 70px;
+  }
+
+  .search-input {
+    font-size: 14px;
+  }
+}
+
