@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>weather</title>
+
+  <link rel="stylesheet" href="weather.css">
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  
+</head>
+
+<body>
+
+  <main class="main-container">
+    <div class="input-container">
+      <input class="search-input" type="text" placeholder="search city">
+      <button class="search-btn">
+       <img src="images/search_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24 (1).svg">
+      </button>
+    </div>
+
+    
+  <section class="weather-info">
+    <div class="location-date-container">
+      <div class="location">
+        
+        <span class="material-symbols-outlined">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M536.5-503.5Q560-527 560-560t-23.5-56.5Q513-640 480-640t-56.5 23.5Q400-593 400-560t23.5 56.5Q447-480 480-480t56.5-23.5ZM480-186q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg>
+      </span>
+        <h4 class="country-text">
+          abuja 
+        </h4>
+      </div>
+      <h5 class="current-date-text regular-txt">
+        Mon, 23 Mar
+      </h5>
+    </div>
+
+    <div class="weather-summary-container">
+      <img src="images/sun (1).png" alt="" class="weather-summary-img">
+      <div class="weather-summary-info">
+        <h1 class="temp-text">
+          29  20&deg;C
+        </h1>
+        <h3 class="condition-text regular-txt">Clouds</h3>
+      </div>
+    </div>
+
+    <div class="weather-conditions-container">
+      <div class="conditon-item">
+      <span class="material-symbols-outlined">
+<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M491-200q12-1 20.5-9.5T520-230q0-14-9-22.5t-23-7.5q-41 3-87-22.5T343-375q-2-11-10.5-18t-19.5-7q-14 0-23 10.5t-6 24.5q17 91 80 130t127 35Zm-239.5 26Q160-268 160-408q0-100 79.5-217.5T480-880q161 137 240.5 254.5T800-408q0 140-91.5 234T480-80q-137 0-228.5-94ZM652-230.5Q720-301 720-408q0-73-60.5-165T480-774Q361-665 300.5-573T240-408q0 107 68 177.5T480-160q104 0 172-70.5ZM480-480Z"/></svg>
+</span>
+
+       <div class="condition-info">
+        <h5 class="regular-txt">humidity</h5>
+        <h5 class="humidity-value-txt">55%</h5>
+       </div>
+      </div>
+
+        <div class="conditon-item">
+      <span class="material-symbols-outlined">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M460-160q-50 0-85-35t-35-85h80q0 17 11.5 28.5T460-240q17 0 28.5-11.5T500-280q0-17-11.5-28.5T460-320H80v-80h380q50 0 85 35t35 85q0 50-35 85t-85 35ZM80-560v-80h540q26 0 43-17t17-43q0-26-17-43t-43-17q-26 0-43 17t-17 43h-80q0-59 40.5-99.5T620-840q59 0 99.5 40.5T760-700q0 59-40.5 99.5T620-560H80Zm660 320v-80q26 0 43-17t17-43q0-26-17-43t-43-17H80v-80h660q59 0 99.5 40.5T880-380q0 59-40.5 99.5T740-240Z"/></svg>
+      </span>
+       <div class="condition-info">
+        <h5 class="regular-txt">wind speed</h5>
+        <h5 class="wind-value-txt">2 m/s</h5>
+       </div>
+      </div>
+    </div>
+
+
+    <div class="forecast-items-container"> 
+     <div class="forecast-item">
+        <h5 class="forecast-item-date regular-txt">23 mar</h5>
+        <img src="images/rainy.png">
+        <h5 class="forecast-item-temp">29  20&deg;C</h5>
+      </div>
+
+      
+      <div class="forecast-item">
+        <h5 class="forecast-item-date regular-txt">23 mar</h5>
+        <img src="images/rainy.png">
+        <h5 class="forecast-item-temp">29  20&deg;C</h5>
+      </div>
+
+       <div class="forecast-item">
+        <h5 class="forecast-item-date regular-txt">23 mar</h5>
+        <img src="images/cloud.png">
+        <h5 class="forecast-item-temp">29  20&deg;C</h5>
+      </div>
+
+      <div class="forecast-item">
+        <h5 class="forecast-item-date regular-txt">23 mar</h5>
+        <img src="images/thunderstorm.png">
+        <h5 class="forecast-item-temp">29  20&deg;C</h5>
+      </div>
+
+      <div class="forecast-item">
+        <h5 class="forecast-item-date regular-txt">23 mar</h5>
+        <img src="images/rainy.png">
+        <h5 class="forecast-item-temp">29  20&deg;C</h5>
+      </div>
+    </div>
+  </section>
+
+  <section class="search-city section-message">
+    <img class="message-img" src="images/undraw_searching_no1g.svg">
+    <div>
+      <h1>Search city</h1>
+      <h4 class="regular-txt">
+        Find out the weather coondition of the city
+      </h4>
+    </div>
+  </section>
+  
+  <section class="not-found section-message-not-found">
+    <img class="message-img" src="images/undraw_page-not-found_6wni.svg">
+    <div>
+      <h1>Search city</h1>
+      <h4 class="regular-txt">
+        Find out the weather coondition of the city
+      </h4>
+    </div>
+  </section>
+</main>
+
+
+  <script src="weather.js"></script>
+</body>
+</html>
