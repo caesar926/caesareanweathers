@@ -230,33 +230,3 @@ body::before {
 .not-found{
   display: none;
 }
-
-@media (max-width: 600px) {
-
-  .temp-text {
-    font-size: 28px;
-  }
-
-  .condition-text {
-    font-size: 14px;
-  }
-
-  .weather-summary-container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .weather-conditions-container {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .forecast-item {
-    min-width: 70px;
-  }
-
-  .search-input {
-    font-size: 14px;
-  }
-}
